@@ -16,10 +16,14 @@ s2.set_size(0.5)
 s3.set_size(0.5)
 s4.set_size(0.5)
 
-text1 = codesters.Text("pete kicska")
-text2 = codesters.Text("witawy")
+text1 = codesters.Text("pete Kicska")
+text2 = codesters.Text("Witawy")
 
-text1 = 
+f1 = codesters.Sprite(-100, 100, 200,)
+f2 = codesters.Sprite(-100, -100, 200,)
+f3 = codesters.Sprite(100, 100, 200,)
+f4 = codesters.Sprite(100, -100, 200,"")
+
 
 
 
