@@ -37,7 +37,7 @@ def collision(s1, s2):
     if s2.get_image_name() == "soccerball":
         stage.remove_sprite(s2)
         if lives == 0:
-            player.say("game over lil bro")
+            player.say("game over. ")
             gameOver = True
         else:
             lives -= 1
@@ -53,7 +53,6 @@ def move_right(player):
 
 player.event_key("a", move_left)
 player.event_key("d", move_right)
-
 
     
 
